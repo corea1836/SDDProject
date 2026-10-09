@@ -1,0 +1,10 @@
+{
+  "project": "thumbnail-maker",
+  "phase": "0-mvp",
+  "steps": [
+    { "step": 0, "name": "project-setup", "status": "pending" },
+    { "step": 1, "name": "thumbnail-api", "status": "pending" },
+    { "step": 2, "name": "ui-components", "status": "pending" },
+    { "step": 3, "name": "studio-page", "status": "pending" }
+  ]
+}
