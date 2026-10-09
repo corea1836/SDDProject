@@ -7,7 +7,8 @@
       "name": "project-setup",
       "status": "completed",
       "started_at": "2026-10-10T01:07:56+0900",
-      "summary": "Next.js 16.4 + Tailwind v4 + ESLint 스캐폴딩(빈 page/한국어 layout/최소 globals.css), Vitest 5 + RTL(jsdom 기본, @/ alias, jest-dom·cleanup setup), openai SDK, .env.example 추가"
+      "summary": "Next.js 16.4 + Tailwind v4 + ESLint 스캐폴딩(빈 page/한국어 layout/최소 globals.css), Vitest 5 + RTL(jsdom 기본, @/ alias, jest-dom·cleanup setup), openai SDK, .env.example 추가",
+      "completed_at": "2026-10-10T01:11:47+0900"
     },
     {
       "step": 1,
