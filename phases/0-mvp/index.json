@@ -2,9 +2,28 @@
   "project": "thumbnail-maker",
   "phase": "0-mvp",
   "steps": [
-    { "step": 0, "name": "project-setup", "status": "pending" },
-    { "step": 1, "name": "thumbnail-api", "status": "pending" },
-    { "step": 2, "name": "ui-components", "status": "pending" },
-    { "step": 3, "name": "studio-page", "status": "pending" }
-  ]
+    {
+      "step": 0,
+      "name": "project-setup",
+      "status": "completed",
+      "started_at": "2026-10-10T01:07:56+0900",
+      "summary": "Next.js 16.4 + Tailwind v4 + ESLint 스캐폴딩(빈 page/한국어 layout/최소 globals.css), Vitest 5 + RTL(jsdom 기본, @/ alias, jest-dom·cleanup setup), openai SDK, .env.example 추가"
+    },
+    {
+      "step": 1,
+      "name": "thumbnail-api",
+      "status": "pending"
+    },
+    {
+      "step": 2,
+      "name": "ui-components",
+      "status": "pending"
+    },
+    {
+      "step": 3,
+      "name": "studio-page",
+      "status": "pending"
+    }
+  ],
+  "created_at": "2026-10-10T01:07:56+0900"
 }
