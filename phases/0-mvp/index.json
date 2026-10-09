@@ -13,7 +13,10 @@
     {
       "step": 1,
       "name": "thumbnail-api",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2026-10-10T01:11:47+0900",
+      "summary": "공용 타입(types/thumbnail.ts), PRD §4-1 검증 상수·validateInput/validateImage, buildPrompt·generateThumbnails(generate/edit 분기, maxRetries 0, 키 누락 선검사)·toUserError(§4-2 매핑) 서비스, POST /api/thumbnails 라우트와 각 테스트(총 88개) 추가",
+      "completed_at": "2026-10-10T01:16:49+0900"
     },
     {
       "step": 2,
