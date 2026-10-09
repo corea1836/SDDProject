@@ -31,7 +31,8 @@
       "name": "studio-page",
       "status": "completed",
       "started_at": "2026-10-10T01:30:20+0900",
-      "summary": "유일한 상태 보유 Client Component ThumbnailStudio(createInput/revise/rounds useState, AbortController useRef, FormData POST·180초 타임아웃 사유 구분·JSON 실패/네트워크/취소 처리, 다시 생성·다시 시도·닫기·이 시안으로 수정하기(atob→File)·돌아가기 시 create 입력 복원, beforeunload 경고, role=status 알림, 새 카드·입력 패널 scrollIntoView, lg 2단 레이아웃·빈 화면 3단계 안내)와 테스트 17개(총 146개), page.tsx를 <ThumbnailStudio />로 교체"
+      "summary": "유일한 상태 보유 Client Component ThumbnailStudio(createInput/revise/rounds useState, AbortController useRef, FormData POST·180초 타임아웃 사유 구분·JSON 실패/네트워크/취소 처리, 다시 생성·다시 시도·닫기·이 시안으로 수정하기(atob→File)·돌아가기 시 create 입력 복원, beforeunload 경고, role=status 알림, 새 카드·입력 패널 scrollIntoView, lg 2단 레이아웃·빈 화면 3단계 안내)와 테스트 17개(총 146개), page.tsx를 <ThumbnailStudio />로 교체",
+      "completed_at": "2026-10-10T01:38:13+0900"
     }
   ],
   "created_at": "2026-10-10T01:07:56+0900"
