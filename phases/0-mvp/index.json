@@ -21,7 +21,9 @@
     {
       "step": 2,
       "name": "ui-components",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2026-10-10T01:17:20+0900",
+      "summary": "props 전용 표현 컴포넌트 ThumbnailForm(create/revise controlled 폼: 카운터·예시 칩·사진 드롭존(validateImage 거부·다중 드롭 첫 장·객체 URL 미리보기/해제)·개수 라디오·validateInput 제출 검증+첫 오류 포커스+aria-describedby)과 RoundCard(생성 중 자리표시자·경과 초·취소 / 완료 그리드·다운로드·작게 보기 <dialog>·수정·다시 생성·부분 결과 안내 / 실패 카드·retryable 다시 시도·닫기), 각 테스트(41개, 총 129개), vitest.setup.ts dialog showModal/close stub 추가"
     },
     {
       "step": 3,
