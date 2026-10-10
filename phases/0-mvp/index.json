@@ -2,9 +2,39 @@
   "project": "thumbnail-maker",
   "phase": "0-mvp",
   "steps": [
-    { "step": 0, "name": "project-setup", "status": "pending" },
-    { "step": 1, "name": "thumbnail-api", "status": "pending" },
-    { "step": 2, "name": "ui-components", "status": "pending" },
-    { "step": 3, "name": "studio-page", "status": "pending" }
-  ]
+    {
+      "step": 0,
+      "name": "project-setup",
+      "status": "completed",
+      "started_at": "2026-10-10T01:07:56+0900",
+      "summary": "Next.js 16.4 + Tailwind v4 + ESLint 스캐폴딩(빈 page/한국어 layout/최소 globals.css), Vitest 5 + RTL(jsdom 기본, @/ alias, jest-dom·cleanup setup), openai SDK, .env.example 추가",
+      "completed_at": "2026-10-10T01:11:47+0900"
+    },
+    {
+      "step": 1,
+      "name": "thumbnail-api",
+      "status": "completed",
+      "started_at": "2026-10-10T01:11:47+0900",
+      "summary": "공용 타입(types/thumbnail.ts), PRD §4-1 검증 상수·validateInput/validateImage, buildPrompt·generateThumbnails(generate/edit 분기, maxRetries 0, 키 누락 선검사)·toUserError(§4-2 매핑) 서비스, POST /api/thumbnails 라우트와 각 테스트(총 88개) 추가",
+      "completed_at": "2026-10-10T01:17:20+0900"
+    },
+    {
+      "step": 2,
+      "name": "ui-components",
+      "status": "completed",
+      "started_at": "2026-10-10T01:17:20+0900",
+      "summary": "props 전용 표현 컴포넌트 ThumbnailForm(create/revise controlled 폼: 카운터·예시 칩·사진 드롭존(validateImage 거부·다중 드롭 첫 장·객체 URL 미리보기/해제)·개수 라디오·validateInput 제출 검증+첫 오류 포커스+aria-describedby)과 RoundCard(생성 중 자리표시자·경과 초·취소 / 완료 그리드·다운로드·작게 보기 <dialog>·수정·다시 생성·부분 결과 안내 / 실패 카드·retryable 다시 시도·닫기), 각 테스트(41개, 총 129개), vitest.setup.ts dialog showModal/close stub 추가",
+      "completed_at": "2026-10-10T01:30:20+0900"
+    },
+    {
+      "step": 3,
+      "name": "studio-page",
+      "status": "completed",
+      "started_at": "2026-10-10T01:30:20+0900",
+      "summary": "유일한 상태 보유 Client Component ThumbnailStudio(createInput/revise/rounds useState, AbortController useRef, FormData POST·180초 타임아웃 사유 구분·JSON 실패/네트워크/취소 처리, 다시 생성·다시 시도·닫기·이 시안으로 수정하기(atob→File)·돌아가기 시 create 입력 복원, beforeunload 경고, role=status 알림, 새 카드·입력 패널 scrollIntoView, lg 2단 레이아웃·빈 화면 3단계 안내)와 테스트 17개(총 146개), page.tsx를 <ThumbnailStudio />로 교체",
+      "completed_at": "2026-10-10T01:38:13+0900"
+    }
+  ],
+  "created_at": "2026-10-10T01:07:56+0900",
+  "completed_at": "2026-10-10T01:38:13+0900"
 }
